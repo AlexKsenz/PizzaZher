@@ -1,0 +1,18 @@
+@import url(zerostyle.css);
+@import url(../fonts/fonts.css);
+
+.wrapper{
+    background:url('../img/main_bg.jpg') center/cover no-repeat ;
+}
+.title{
+    margin-top:45vh;
+}
+
+.main__title{
+    font-family: 'Comfortaa';
+    color:rgb(252, 252, 249);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
