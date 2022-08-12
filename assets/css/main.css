@@ -1,5 +1,6 @@
 @import url(zerostyle.css);
 @import url(../fonts/fonts.css);
+@import url(media.css);
 
 .wrapper{
     background:url('../img/main_bg.jpg') center/cover no-repeat ;
