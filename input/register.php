@@ -55,5 +55,7 @@
 
 
 <?php 
+    $_SESSION['reg_ok'] = true;
+    
   require('../partials/footer.php');
 ?>

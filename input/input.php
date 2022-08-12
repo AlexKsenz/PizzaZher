@@ -1,3 +1,14 @@
+<?php 
+  require('../partials/header.php');
+
+    if($_SESSION['reg_ok']) {
+
+   unset($_SESSION['reg_ok']);
+
+   echo "<script>alert('Регистрация успешно пройдена!');</script>";
+  
+}
+?>
 <div class="zeroblock clearfix"></div>
 <section id="content">
     <form action="#" method="POST">
