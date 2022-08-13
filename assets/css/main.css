@@ -3,17 +3,112 @@
 @import url(media.css);
 
 .wrapper{
-    background:url('../img/main_bg.jpg') center/cover no-repeat ;
+    max-width: 1395px;
+    margin: 0 auto;
+    
 }
-.title{
-    margin-top:45vh;
+/* header   */
+.menu{
+    
+    background-color: #231F20;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.main__title{
-    font-family: 'Comfortaa';
-    color:rgb(252, 252, 249);
+.menu__item{
+    font-family: 'Montserrat';
+    display: flex;
+    height: 30px;
+    margin: 15px auto ;
+
+}
+
+.menu__item a,  
+.menu__item p  {
+    color: #fff;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
     text-align: center;
+}
+.shedule p{
+    padding-top: 3px;
+}
 
+.menu__item img{
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.menu__social a {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9px;
+    padding-top: 2px;
+    
+}
+
+.menu__signin {
+}
+.signin {
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+.subheader {
+    height: 90px;
+}
+.container {
+}
+
+.products{
+    display: flex;
+    margin: 0 auto;   
+    justify-content: space-around; 
+}
+
+.subheader__logo {
+    display: flex;
+    width: 340px; 
+    height: 90px;
+    
+}
+.subheader__logo img {
+    display: block;
+    
+}
+
+.logo__title {
+    font-family: 'Mochiy Pop One';
+    font-size: 38px;
+}
+
+.logo__subtitle {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 600;
+}
+.pizza {
+}
+.salads {
+}
+.potables {
+}
+.greeting {
+}
+.username {
+}
+.cart {
+}
+
+.promo{
+    /* min-height: 800px; */
+    /* background: url('../img/main_bg.jpg') center center/cover no-repeat; */
 }
